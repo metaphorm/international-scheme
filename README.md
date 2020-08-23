@@ -13,7 +13,7 @@ Two macros are defined in `international.scm`: `translate-procedure-names` and `
 * The `translate-procedure-names` macro is used to translate all the procedure names.
 * The `translate-syntax-names` macro is used to translate all the syntax names.
 
-Use `languages/template.scm` as a starting point for translations to your language.
+Use `template.scm` as a starting point for translations to your language.
 
 To translate Scheme to your language, simply replace each `todo` in the template with a translation of the identifier to its left.
 
@@ -21,7 +21,7 @@ For a list of identifier definitions, please see https://www.scheme.com/tspl4/su
 
 ## Where can I see an example of an existing translation?
 
-Please see `languages/bosanski.scm` for a translation of R6RS Scheme into Bosnian.
+Please see `bosanski.scm` for a translation of R6RS Scheme into Bosnian.
 
 Below is a version of a "Hello, World!" (lit. "Healthy, World!") program in Scheme written in Bosnian.
 
