@@ -52,7 +52,7 @@ For example:
 
 * Existing error messages are not translated.
 * Self-evaluating constants are not translated. (e.g. `#t`, `#f`, `#\c`, `12.3`, `"abc"`)
-* Condition type names are not translated. (e.g. &condition, &who, &no-nans, etc.)
+* Condition type names are not translated. (e.g. `&condition`, `&who`, `&no-nans`, etc.)
 
 ## Is there anything else I should know about this library?
 

@@ -130,7 +130,7 @@
   bitwise-xor bitno-isključivo-ili
   boolean=? booleov=?
   boolean? booleov?
-  bound-identifier=? vesan-identifikator?
+  bound-identifier=? vezan-identifikator=?
   bytevector->sint-list bajtvektor->ocij-lista
   bytevector->string bajtvektor->string
   bytevector->u8-list bajtvektor->n8-lista
