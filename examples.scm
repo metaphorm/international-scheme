@@ -40,7 +40,7 @@
     (kad uslov
       tijelo ... (ponovi))))
 
-(nek ((x 3))
+(sa (x 3)
   (dok (< x 10)
     (postavi! x (+ x 1))
     (prikaži x)))
