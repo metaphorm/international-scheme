@@ -30,6 +30,8 @@ Below is a version of a "Hello, World!" (lit. "Healthy, World!") program in Sche
   (prikaži "Zdravo, Svjete!"))
 ```
 
+For additional examples, please see [examples.scm](examples.scm).
+
 ## Why is the example translation in Bosnian?
 
 Because Bosnian is a language that the author of this library speaks well enough to translate.
@@ -49,7 +51,7 @@ Yes, there are a few parts of Scheme that cannot be translated using this librar
 For example:
 
 * Existing error messages are not translated.
-* Self-evaluating constants are not translated. (e.g. `#t`, `#f`, `#\c`, 12.3, "abc")
+* Self-evaluating constants are not translated. (e.g. `#t`, `#f`, `#\c`, `12.3`, `"abc"`)
 * Condition type names are not translated. (e.g. &condition, &who, &no-nans, etc.)
 
 ## Is there anything else I should know about this library?
@@ -62,7 +64,7 @@ Here's an example of using the `translate-syntax-names` macro to translate the n
 (translate-syntax-names cond uslov (else inače))
 ```
 
-In addition to translating `cond` to `uslov`, this will also translates the auxiliary keyword `else` (which is internal to `cond`) to `inače`.  However, _all_ identifiers named `else` within `uslov` will be renamed to `inače`, even ones not in the expected position of the auxiliary keyword `else` as defined by `cond`.  This can cause some unexpected behaviour, such as the following:
+In addition to translating `cond` to `uslov`, this will also translate the auxiliary keyword `else` (which is internal to `cond`) to `inače`.  However, _all_ identifiers named `else` within `uslov` will be renamed to `inače`, even ones not in the expected position of the auxiliary keyword `else` as defined by `cond`.  This can cause some unexpected behaviour, such as the following:
 
 ```
 (uslov (#t (let ((else "this is not hygienic")) (display inače))))
@@ -76,6 +78,7 @@ Unfortunately, this may be a more difficult task for some forms, such as the `li
 ## License
 
 This project is licensed under the Apache-2.0 License.
+
 
 
 Made in Canada with :heart:
