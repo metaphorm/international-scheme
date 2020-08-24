@@ -38,7 +38,7 @@ Because Bosnian is a language that the author of this library speaks well enough
 
 ## How can I write Scheme code in my language?
 
-When you have created a translation file, simply import it into your project and write Scheme code in your language.
+When you have created a translation file, simply load it into your project and write Scheme code in your language.
 
 ## How can I contribute a translation?
 
@@ -51,7 +51,7 @@ Yes, there are a few parts of Scheme that cannot be translated using this librar
 For example:
 
 * Existing error messages are not translated.
-* Self-evaluating constants are not translated. (e.g. `#t`, `#f`, `#\c`, `12.3`, `"abc"`)
+* Self-evaluating constants are not translated. (e.g. `#t`, `#f`, `#\c`, `12.3`, `"abc"`, etc.)
 * Condition type names are not translated. (e.g. `&condition`, `&who`, `&no-nans`, etc.)
 
 ## Is there anything else I should know about this library?
