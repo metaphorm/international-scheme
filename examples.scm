@@ -52,7 +52,7 @@
 
 (nek ((predmeti (lista 1 2 3 4 5 6 7)))
   (za (predmet u predmeti)
-      (prikaži (+ predmet 1))))
+    (prikaži (+ predmet 1))))
 
 (definiši-sintaktičko-pravilo (za-petlja ((promjenjiva početno) uslov priraštaj) tijelo ...)
   (nek ponovi ((promjenjiva početno))
