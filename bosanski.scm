@@ -698,7 +698,7 @@
   who-condition? ko-stanje?
   with-exception-handler sa-izuzetak-rukovateljom
   with-input-from-file sa-ulazom-od-fajla
-  with-output-to-file za-izlazom-do-fajla
+  with-output-to-file sa-izlazom-do-fajla
   write piši
   write-char piši-kar
   zero? nula?)
