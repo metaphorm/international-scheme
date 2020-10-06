@@ -58,23 +58,23 @@
   letrec todo
   letrec* todo
   letrec-syntax todo
-  library biblioteka (and todo
-                      or todo
-                      not todo
-                      import todo
-                      for todo
-                      run todo
-                      expand todo
-                      meta todo
-                      only todo
-                      except todo
-                      prefix todo
-                      rename todo
-                      export todo
-                      rename todo)
+  library todo (and todo
+                or todo
+                not todo
+                import todo
+                for todo
+                run todo
+                expand todo
+                meta todo
+                only todo
+                except todo
+                prefix todo
+                rename todo
+                export todo
+                rename todo)
   or todo
-  quasiquote todo (unquote odcitiraj
-                   unquote-splicing odcitiraj-uplečujući)
+  quasiquote todo (unquote todo
+                   unquote-splicing todo)
   quasisyntax todo
   quote todo
   record-constructor-descriptor todo
