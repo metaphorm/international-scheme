@@ -26,7 +26,7 @@
   (sintaktička-pravila ()
     ((_ (ime itd ...) šablon)
      (definiši-sintaksu ime
-       (sintaktička-pravila  ()
+       (sintaktička-pravila ()
          ((_ itd ...) šablon))))))
 
 (definiši-sintaktičko-pravilo (sa (promjenjiva vrijednost) tijelo ...)
